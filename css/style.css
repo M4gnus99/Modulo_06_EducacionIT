@@ -1,40 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
+
 *{
     box-sizing: border-box;
 }
 body{
     font-family: 'Roboto', sans-serif;
-    text-align: center;
+    text-align: start;
 }
 @font-face {
     font-family: miFuente;
     src: url(../fonts/coolvetica\ rg.otf);
     font-weight: 400;
 }
+h2, h3, main p{
+    color: #04146c;
+    /* Aplicando este font size queda diferente al modelo, al quitarlo queda tal cual al modelo de referencia */
+    font-size: 24px;
+}
 
 h1{
     font-family: miFuente;
     font-size: 120px;
-    color:#0a2ff1;
+    color: #0a2ff1;
+    font-weight: 400;
+    margin-top: 0;
 }
-p{
-    font-size: 40px;
-    font-weight: 300;
+header p{
+    font-size: 30px;
+    font-weight:300;
     color: #04146c;
 }
-button {
-    font-family: 'Roboto', sans-serif;
-    background-color: #0a2ff1;
-    border:3px solid #0a2ff1;
-    color: white;
-    font-size: 40px;
-    font-weight: 300;
-    padding: 15px;
-    display: block;
-    margin: auto;
-    margin-bottom:20px;
+header span{
+    font-weight: 700;
 }
-#btn2 {
-    background-color: white;
-    color: #04146c;
+
+h2{
+    font-weight: 300;
+    font-style: italic;
+}
+h3{
+    font-weight: 900;
+
+}
+main{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+main p{
+    font-weight: 400;
+}
+main div{
+    width: 25%;
+    padding: 1rem;
+    background-color: #eff2ff;
+    margin-bottom: 5rem;
+}
+img{
+    width: 30%;
 }
